@@ -149,7 +149,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 def main():
-    TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+    TOKEN = os.getenv('7501295036:AAEIM8Bdtma0VYhtf3yw2HxBI8IkjnacmIM')
     if not TOKEN:
         print("Установи переменную окружения TELEGRAM_BOT_TOKEN с токеном бота")
         return
